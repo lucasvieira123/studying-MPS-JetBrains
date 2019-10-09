@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/BibliographyLanguage/BibliographyLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/BibliographyLanguage/runtime/BibliographyLanguage.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Biblio/Biblio.msd" folder="" />
     </projectModules>
   </component>
 </project>

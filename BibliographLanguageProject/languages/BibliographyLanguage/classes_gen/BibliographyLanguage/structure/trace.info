@@ -39,8 +39,8 @@
       <node id="1322972126483243846" at="21,0,22,0" concept="1" trace="myConceptBibliography" />
       <node id="1322972126483243846" at="53,46,54,37" concept="4" />
       <node id="1322972126483243846" at="108,70,109,167" concept="3" />
-      <node id="1322972126483243846" at="109,167,110,34" concept="0" />
-      <node id="1322972126483243846" at="110,34,111,71" concept="0" />
+      <node id="1322972126483243846" at="109,167,110,33" concept="0" />
+      <node id="1322972126483243846" at="110,33,111,71" concept="0" />
       <node id="1322972126483243846" at="111,71,112,107" concept="0" />
       <node id="1322972126483243846" at="112,107,113,17" concept="0" />
       <node id="1322972126483243856" at="113,17,114,205" concept="0" />
@@ -142,19 +142,18 @@
       <node id="1322972126483243851" at="45,40,46,31" concept="4" />
       <node id="1322972126483243851" at="73,64,74,161" concept="3" />
       <node id="1322972126483243851" at="74,161,75,34" concept="0" />
-      <node id="1322972126483243851" at="75,34,76,124" concept="0" />
-      <node id="1322972126483243851" at="76,124,77,107" concept="0" />
-      <node id="1322972126483243851" at="77,107,78,17" concept="0" />
-      <node id="1322972126483243864" at="78,17,79,115" concept="0" />
-      <node id="1322972126483243866" at="79,115,80,116" concept="0" />
-      <node id="1322972126483243869" at="80,116,81,114" concept="0" />
-      <node id="1322972126483243851" at="81,114,82,22" concept="4" />
-      <node id="1322972126483243851" at="73,0,84,0" concept="6" trace="createDescriptorForAuthor#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="1322972126483243851" at="75,34,76,107" concept="0" />
+      <node id="1322972126483243851" at="76,107,77,17" concept="0" />
+      <node id="1322972126483243864" at="77,17,78,115" concept="0" />
+      <node id="1322972126483243866" at="78,115,79,116" concept="0" />
+      <node id="1322972126483243869" at="79,116,80,114" concept="0" />
+      <node id="1322972126483243851" at="80,114,81,22" concept="4" />
+      <node id="1322972126483243851" at="73,0,83,0" concept="6" trace="createDescriptorForAuthor#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="1322972126483243851" at="45,40,46,31" />
-      <scope id="1322972126483243851" at="73,64,82,22">
+      <scope id="1322972126483243851" at="73,64,81,22">
         <var name="b" id="1322972126483243851" />
       </scope>
-      <scope id="1322972126483243851" at="73,0,84,0" />
+      <scope id="1322972126483243851" at="73,0,83,0" />
     </file>
   </root>
   <root nodeRef="r:4a12139c-8d78-4696-8ac1-fc227d811316(BibliographyLanguage.structure)/1322972126483243852">
@@ -177,18 +176,19 @@
     <file name="StructureAspectDescriptor.java">
       <node id="1322972126483243852" at="18,0,19,0" concept="1" trace="myConceptAuthorsElement" />
       <node id="1322972126483243852" at="47,48,48,39" concept="4" />
-      <node id="1322972126483243852" at="84,72,85,169" concept="3" />
-      <node id="1322972126483243852" at="85,169,86,34" concept="0" />
-      <node id="1322972126483243852" at="86,34,87,107" concept="0" />
+      <node id="1322972126483243852" at="83,72,84,169" concept="3" />
+      <node id="1322972126483243852" at="84,169,85,34" concept="0" />
+      <node id="1322972126483243852" at="85,34,86,124" concept="0" />
+      <node id="1322972126483243852" at="86,124,87,107" concept="0" />
       <node id="1322972126483243852" at="87,107,88,17" concept="0" />
       <node id="1322972126483243875" at="88,17,89,199" concept="0" />
       <node id="1322972126483243852" at="89,199,90,22" concept="4" />
-      <node id="1322972126483243852" at="84,0,92,0" concept="6" trace="createDescriptorForAuthorsElement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="1322972126483243852" at="83,0,92,0" concept="6" trace="createDescriptorForAuthorsElement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="1322972126483243852" at="47,48,48,39" />
-      <scope id="1322972126483243852" at="84,72,90,22">
+      <scope id="1322972126483243852" at="83,72,90,22">
         <var name="b" id="1322972126483243852" />
       </scope>
-      <scope id="1322972126483243852" at="84,0,92,0" />
+      <scope id="1322972126483243852" at="83,0,92,0" />
     </file>
   </root>
   <root nodeRef="r:4a12139c-8d78-4696-8ac1-fc227d811316(BibliographyLanguage.structure)/1322972126483243853">

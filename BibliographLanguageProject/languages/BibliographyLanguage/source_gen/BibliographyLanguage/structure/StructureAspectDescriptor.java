@@ -73,7 +73,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForAuthor() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("BibliographyLanguage", "Author", 0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec6e34bL);
     b.class_(false, false, false);
-    b.super_("BibliographyLanguage.structure.BiblioElement", 0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec6e34aL);
     b.origin("r:4a12139c-8d78-4696-8ac1-fc227d811316(BibliographyLanguage.structure)/1322972126483243851");
     b.version(2);
     b.property("firstName", 0x125c2423bec6e358L).type(PrimitiveTypeId.STRING).origin("1322972126483243864").done();
@@ -84,6 +83,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForAuthorsElement() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("BibliographyLanguage", "AuthorsElement", 0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec6e34cL);
     b.class_(false, false, false);
+    b.super_("BibliographyLanguage.structure.BiblioElement", 0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec6e34aL);
     b.origin("r:4a12139c-8d78-4696-8ac1-fc227d811316(BibliographyLanguage.structure)/1322972126483243852");
     b.version(2);
     b.aggregate("author", 0x125c2423bec6e363L).target(0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec6e34bL).optional(false).ordered(true).multiple(true).origin("1322972126483243875").done();
@@ -107,7 +107,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForBibliography() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("BibliographyLanguage", "Bibliography", 0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec6e346L);
-    b.class_(false, false, false);
+    b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:4a12139c-8d78-4696-8ac1-fc227d811316(BibliographyLanguage.structure)/1322972126483243846");
     b.version(2);

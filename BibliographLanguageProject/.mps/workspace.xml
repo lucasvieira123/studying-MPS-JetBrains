@@ -6,7 +6,11 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0deee78b-8f1a-4863-8e75-55961055ff92" name="Default Changelist" comment="" />
+    <list default="true" id="0deee78b-8f1a-4863-8e75-55961055ff92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.mps/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +23,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="88cb99a7-5ecc-4d36-bdbf-1677391af411/r:c30dc56d-c2d5-4a4d-bc97-ae66ce8c44df(TempModule88cb99a7-5ecc-4d36-bdbf-1677391af411/ConsoleModel_23584061867207)">
+            <model ref="f6ca53e7-e7cd-445f-9b3f-a0bf4bc3f654/r:b50235c8-a498-4aa6-921b-68a1d817baab(TempModulef6ca53e7-e7cd-445f-9b3f-a0bf4bc3f654/ConsoleModel_24760552002478)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -39,11 +43,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="19s92eYLIcd">
-                <node concept="3balQm" id="19s92eYLIce" role="aymYE" />
-                <node concept="2Clz$F" id="19s92eYLIcf" role="aymYO" />
-                <node concept="2_V_lH" id="19s92eYLIcg" role="1PhJh3">
-                  <ref role="2_V_lI" node="19s92eYLIcf" resolve="CommandHolder" />
+              <node concept="aymSD" id="19s92eYLT9y">
+                <node concept="3balQm" id="19s92eYLT9z" role="aymYE" />
+                <node concept="2Clz$F" id="19s92eYLT9$" role="aymYO" />
+                <node concept="2_V_lH" id="19s92eYLT9_" role="1PhJh3">
+                  <ref role="2_V_lI" node="19s92eYLT9$" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -64,6 +68,9 @@
         <flags show_one_result="true" new_tab="false" />
       </view>
     </search_options>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MPSBookmarkManager">
     <option name="myBookmarkInfos">
@@ -91,6 +98,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1RzHTegd0E0qEcRYfUgRWXoJ7eF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectPluginManager">
     <option name="pluginsState">
       <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
@@ -153,8 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystem" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,7 +169,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="9c888dae-b734-4d73-9817-646490f9c7c9" />
+              <option name="myItemId" value="8c6e8648-6326-4795-9789-8d86e4b09e6e" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Biblio" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -173,15 +183,60 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8c6e8648-6326-4795-9789-8d86e4b09e6e" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8c6e8648-6326-4795-9789-8d86e4b09e6e" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Biblio" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:5df7b569-c066-4a6e-aa0f-cb960b75e10e(Biblio.ModelA) in IdeaFile[file:///home/lucas/MPSProjects/studying-MPS-JetBrains/BibliographLanguageProject/solutions/Biblio/models/Biblio.ModelA.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8c6e8648-6326-4795-9789-8d86e4b09e6e" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Biblio" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:5df7b569-c066-4a6e-aa0f-cb960b75e10e(Biblio.ModelA) in IdeaFile[file:///home/lucas/MPSProjects/studying-MPS-JetBrains/BibliographLanguageProject/solutions/Biblio/models/Biblio.ModelA.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="FileSystem" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,5 +259,16 @@
     <default_view_options>
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
