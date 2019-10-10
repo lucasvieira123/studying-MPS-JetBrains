@@ -10,20 +10,26 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
   public static final int Author = 0;
-  public static final int AuthorsElement = 1;
-  public static final int BiblioElement = 2;
-  public static final int BiblioRecord = 3;
-  public static final int Bibliography = 4;
-  public static final int PublicationYearElement = 5;
-  public static final int TitleElement = 6;
+  public static final int AuthorElement = 1;
+  public static final int AuthorRef = 2;
+  public static final int BiblioElement = 3;
+  public static final int BiblioRecord = 4;
+  public static final int Bibliography = 5;
+  public static final int EtAlAuthor = 6;
+  public static final int Person = 7;
+  public static final int PublicationYearElement = 8;
+  public static final int TitleElement = 9;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL);
     builder.put(0x125c2423bec6e34bL, Author);
-    builder.put(0x125c2423bec6e34cL, AuthorsElement);
+    builder.put(0x125c2423bec6e34cL, AuthorElement);
+    builder.put(0x125c2423bec7aa62L, AuthorRef);
     builder.put(0x125c2423bec6e34aL, BiblioElement);
     builder.put(0x125c2423bec6e349L, BiblioRecord);
     builder.put(0x125c2423bec6e346L, Bibliography);
+    builder.put(0x125c2423bec7aa69L, EtAlAuthor);
+    builder.put(0x125c2423bec7aa5eL, Person);
     builder.put(0x125c2423bec6e34eL, PublicationYearElement);
     builder.put(0x125c2423bec6e34dL, TitleElement);
     myIndex = builder.seal();

@@ -7,9 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0deee78b-8f1a-4863-8e75-55961055ff92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.mps/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/StructureAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/models/BibliographyLanguage.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/models/BibliographyLanguage.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen.caches/BibliographyLanguage/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen.caches/BibliographyLanguage/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen.caches/BibliographyLanguage/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen.caches/BibliographyLanguage/structure/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/LanguageConceptSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/StructureAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Biblio/models/Biblio.ModelA.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Biblio/models/Biblio.ModelA.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Biblio/source_gen.caches/Biblio/ModelA/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Biblio/source_gen.caches/Biblio/ModelA/generated" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +181,50 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="bb75b698-34bf-4772-b67e-b9c7faf0daab(BibliographyLanguage)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:4a12139c-8d78-4696-8ac1-fc227d811316(BibliographyLanguage.structure) in IdeaFile[file:///home/lucas/MPSProjects/studying-MPS-JetBrains/BibliographLanguageProject/languages/BibliographyLanguage/models/BibliographyLanguage.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9c888dae-b734-4d73-9817-646490f9c7c9" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9c888dae-b734-4d73-9817-646490f9c7c9" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BibliographyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="8c6e8648-6326-4795-9789-8d86e4b09e6e" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -182,6 +238,10 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8c6e8648-6326-4795-9789-8d86e4b09e6e" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -189,7 +249,25 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="8c6e8648-6326-4795-9789-8d86e4b09e6e" />
+              <option name="myItemId" value="bb75b698-34bf-4772-b67e-b9c7faf0daab(BibliographyLanguage)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9c888dae-b734-4d73-9817-646490f9c7c9" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BibliographyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:e518a853-f4b1-413e-8397-23e8d989139e(BibliographyLanguage.runtime) in IdeaFile[file:///home/lucas/MPSProjects/studying-MPS-JetBrains/BibliographLanguageProject/languages/BibliographyLanguage/runtime/models/BibliographyLanguage.runtime.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -217,15 +295,15 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="8c6e8648-6326-4795-9789-8d86e4b09e6e" />
+              <option name="myItemId" value="bb75b698-34bf-4772-b67e-b9c7faf0daab(BibliographyLanguage)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Biblio" />
+              <option name="myItemId" value="r:4a12139c-8d78-4696-8ac1-fc227d811316(BibliographyLanguage.structure) in IdeaFile[file:///home/lucas/MPSProjects/studying-MPS-JetBrains/BibliographLanguageProject/languages/BibliographyLanguage/models/BibliographyLanguage.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:5df7b569-c066-4a6e-aa0f-cb960b75e10e(Biblio.ModelA) in IdeaFile[file:///home/lucas/MPSProjects/studying-MPS-JetBrains/BibliographLanguageProject/solutions/Biblio/models/Biblio.ModelA.mps]" />
+              <option name="myItemId" value="1322972126483243851" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>

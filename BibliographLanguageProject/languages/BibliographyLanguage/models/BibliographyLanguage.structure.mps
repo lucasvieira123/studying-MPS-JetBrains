@@ -13,6 +13,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -53,7 +54,7 @@
     <node concept="1TJgyj" id="19s92eYLIdg" role="1TKVEi">
       <property role="IQ2ns" value="1322972126483243856" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="biblioRecord" />
+      <property role="20kJfa" value="records" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="19s92eYLId9" resolve="BiblioRecord" />
     </node>
@@ -61,12 +62,12 @@
   <node concept="1TIwiD" id="19s92eYLId9">
     <property role="EcuMT" value="1322972126483243849" />
     <property role="TrG5h" value="BiblioRecord" />
-    <property role="R5$K7" value="true" />
+    <property role="34LRSv" value="&lt;elements&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="19s92eYLIdi" role="1TKVEi">
       <property role="IQ2ns" value="1322972126483243858" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="biblioElement" />
+      <property role="20kJfa" value="elements" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="19s92eYLIda" resolve="BiblioElement" />
     </node>
@@ -77,12 +78,57 @@
   <node concept="1TIwiD" id="19s92eYLIda">
     <property role="EcuMT" value="1322972126483243850" />
     <property role="TrG5h" value="BiblioElement" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="19s92eYLIdb">
     <property role="EcuMT" value="1322972126483243851" />
     <property role="TrG5h" value="Author" />
+    <property role="34LRSv" value="author" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="19s92eYLV6j" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="19s92eYLIdc">
+    <property role="EcuMT" value="1322972126483243852" />
+    <property role="TrG5h" value="AuthorElement" />
+    <property role="34LRSv" value="authors" />
+    <ref role="1TJDcQ" node="19s92eYLIda" resolve="BiblioElement" />
+    <node concept="1TJgyj" id="19s92eYLIdz" role="1TKVEi">
+      <property role="IQ2ns" value="1322972126483243875" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="authors" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="19s92eYLIdb" resolve="Author" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="19s92eYLIdd">
+    <property role="EcuMT" value="1322972126483243853" />
+    <property role="TrG5h" value="TitleElement" />
+    <property role="34LRSv" value="title" />
+    <ref role="1TJDcQ" node="19s92eYLIda" resolve="BiblioElement" />
+    <node concept="1TJgyi" id="19s92eYLIdk" role="1TKVEl">
+      <property role="IQ2nx" value="1322972126483243860" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="19s92eYLIde">
+    <property role="EcuMT" value="1322972126483243854" />
+    <property role="TrG5h" value="PublicationYearElement" />
+    <ref role="1TJDcQ" node="19s92eYLIda" resolve="BiblioElement" />
+    <node concept="1TJgyi" id="19s92eYLIdm" role="1TKVEl">
+      <property role="IQ2nx" value="1322972126483243862" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="19s92eYLUDu">
+    <property role="EcuMT" value="1322972126483294814" />
+    <property role="TrG5h" value="Person" />
+    <ref role="1TJDcQ" node="19s92eYLIdb" resolve="Author" />
     <node concept="1TJgyi" id="19s92eYLIdo" role="1TKVEl">
       <property role="IQ2nx" value="1322972126483243864" />
       <property role="TrG5h" value="firstName" />
@@ -99,37 +145,22 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="19s92eYLIdc">
-    <property role="EcuMT" value="1322972126483243852" />
-    <property role="TrG5h" value="AuthorsElement" />
-    <ref role="1TJDcQ" node="19s92eYLIda" resolve="BiblioElement" />
-    <node concept="1TJgyj" id="19s92eYLIdz" role="1TKVEi">
-      <property role="IQ2ns" value="1322972126483243875" />
+  <node concept="1TIwiD" id="19s92eYLUDy">
+    <property role="EcuMT" value="1322972126483294818" />
+    <property role="TrG5h" value="AuthorRef" />
+    <ref role="1TJDcQ" node="19s92eYLIdb" resolve="Author" />
+    <node concept="1TJgyj" id="19s92eYLUDz" role="1TKVEi">
+      <property role="IQ2ns" value="1322972126483294819" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="author" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="19s92eYLIdb" resolve="Author" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="19s92eYLUDu" resolve="Person" />
     </node>
   </node>
-  <node concept="1TIwiD" id="19s92eYLIdd">
-    <property role="EcuMT" value="1322972126483243853" />
-    <property role="TrG5h" value="TitleElement" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="19s92eYLIdk" role="1TKVEl">
-      <property role="IQ2nx" value="1322972126483243860" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="19s92eYLIde">
-    <property role="EcuMT" value="1322972126483243854" />
-    <property role="TrG5h" value="PublicationYearElement" />
-    <ref role="1TJDcQ" node="19s92eYLIda" resolve="BiblioElement" />
-    <node concept="1TJgyi" id="19s92eYLIdm" role="1TKVEl">
-      <property role="IQ2nx" value="1322972126483243862" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
+  <node concept="1TIwiD" id="19s92eYLUDD">
+    <property role="EcuMT" value="1322972126483294825" />
+    <property role="TrG5h" value="EtAlAuthor" />
+    <ref role="1TJDcQ" node="19s92eYLIdb" resolve="Author" />
   </node>
 </model>
 

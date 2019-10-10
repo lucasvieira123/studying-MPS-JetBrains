@@ -8,17 +8,61 @@
   <registry>
     <language id="bb75b698-34bf-4772-b67e-b9c7faf0daab" name="BibliographyLanguage">
       <concept id="1322972126483243846" name="BibliographyLanguage.structure.Bibliography" flags="ng" index="2GAGt_">
-        <child id="1322972126483243856" name="biblioRecord" index="2GAGtN" />
+        <child id="1322972126483243856" name="records" index="2GAGtN" />
       </concept>
-      <concept id="1322972126483243850" name="BibliographyLanguage.structure.BiblioElement" flags="ng" index="2GAGtD" />
       <concept id="1322972126483243849" name="BibliographyLanguage.structure.BiblioRecord" flags="ng" index="2GAGtE">
-        <child id="1322972126483243858" name="biblioElement" index="2GAGtL" />
+        <child id="1322972126483243858" name="elements" index="2GAGtL" />
+      </concept>
+      <concept id="1322972126483243853" name="BibliographyLanguage.structure.TitleElement" flags="ng" index="2GAGtI">
+        <property id="1322972126483243860" name="value" index="2GAGtR" />
+      </concept>
+      <concept id="1322972126483243852" name="BibliographyLanguage.structure.AuthorElement" flags="ng" index="2GAGtJ">
+        <child id="1322972126483243875" name="authors" index="2GAGt0" />
+      </concept>
+      <concept id="1322972126483294818" name="BibliographyLanguage.structure.AuthorRef" flags="ng" index="2GAST1">
+        <child id="1322972126483294819" name="author" index="2GAST0" />
+      </concept>
+      <concept id="1322972126483294814" name="BibliographyLanguage.structure.Person" flags="ng" index="2GASTX">
+        <property id="1322972126483243864" name="firstName" index="2GAGtV" />
+        <property id="1322972126483243869" name="lastName" index="2GAGtY" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
   <node concept="2GAGt_" id="19s92eYLTx5">
+    <property role="TrG5h" value="MPSBook" />
     <node concept="2GAGtE" id="19s92eYLTx6" role="2GAGtN">
-      <node concept="2GAGtD" id="19s92eYLTx7" role="2GAGtL" />
+      <property role="TrG5h" value="Sime2014" />
+      <node concept="2GAGtJ" id="19s92eYLUCD" role="2GAGtL">
+        <node concept="2GASTX" id="19s92eYLV6f" role="2GAGt0">
+          <property role="2GAGtV" value="Manuele" />
+          <property role="TrG5h" value="Simi, MAnuele" />
+          <property role="2GAGtY" value="Simi" />
+        </node>
+        <node concept="2GASTX" id="19s92eYLVyW" role="2GAGt0">
+          <property role="TrG5h" value="Campagne, Fabien" />
+          <property role="2GAGtV" value="Fabien" />
+          <property role="2GAGtY" value="Campagne" />
+        </node>
+      </node>
+      <node concept="2GAGtI" id="19s92eYLUCz" role="2GAGtL">
+        <property role="2GAGtR" value="Composable languages for bioinformatics: the NyoSh experiments" />
+      </node>
+    </node>
+    <node concept="2GAGtE" id="19s92eYLVzj" role="2GAGtN">
+      <property role="TrG5h" value="AnotherPublication" />
+      <node concept="2GAGtI" id="19s92eYLVzs" role="2GAGtL">
+        <property role="2GAGtR" value="Undertanding Reference to other parts of the AST" />
+      </node>
+      <node concept="2GAGtJ" id="19s92eYLVzN" role="2GAGtL">
+        <node concept="2GAST1" id="19s92eYLVzY" role="2GAGt0">
+          <node concept="2GASTX" id="19s92eYLV$0" role="2GAST0" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

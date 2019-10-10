@@ -10,10 +10,13 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_Author;
-  private ConceptPresentation props_AuthorsElement;
+  private ConceptPresentation props_AuthorElement;
+  private ConceptPresentation props_AuthorRef;
   private ConceptPresentation props_BiblioElement;
   private ConceptPresentation props_BiblioRecord;
   private ConceptPresentation props_Bibliography;
+  private ConceptPresentation props_EtAlAuthor;
+  private ConceptPresentation props_Person;
   private ConceptPresentation props_PublicationYearElement;
   private ConceptPresentation props_TitleElement;
 
@@ -25,27 +28,33 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Author:
         if (props_Author == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Author");
           props_Author = cpb.create();
         }
         return props_Author;
-      case LanguageConceptSwitch.AuthorsElement:
-        if (props_AuthorsElement == null) {
+      case LanguageConceptSwitch.AuthorElement:
+        if (props_AuthorElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("AuthorsElement");
-          props_AuthorsElement = cpb.create();
+          cpb.rawPresentation("authors");
+          props_AuthorElement = cpb.create();
         }
-        return props_AuthorsElement;
+        return props_AuthorElement;
+      case LanguageConceptSwitch.AuthorRef:
+        if (props_AuthorRef == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_AuthorRef = cpb.create();
+        }
+        return props_AuthorRef;
       case LanguageConceptSwitch.BiblioElement:
         if (props_BiblioElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("BiblioElement");
           props_BiblioElement = cpb.create();
         }
         return props_BiblioElement;
       case LanguageConceptSwitch.BiblioRecord:
         if (props_BiblioRecord == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
           props_BiblioRecord = cpb.create();
         }
         return props_BiblioRecord;
@@ -56,6 +65,20 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Bibliography = cpb.create();
         }
         return props_Bibliography;
+      case LanguageConceptSwitch.EtAlAuthor:
+        if (props_EtAlAuthor == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_EtAlAuthor = cpb.create();
+        }
+        return props_EtAlAuthor;
+      case LanguageConceptSwitch.Person:
+        if (props_Person == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_Person = cpb.create();
+        }
+        return props_Person;
       case LanguageConceptSwitch.PublicationYearElement:
         if (props_PublicationYearElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -66,7 +89,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.TitleElement:
         if (props_TitleElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("TitleElement");
+          cpb.rawPresentation("title");
           props_TitleElement = cpb.create();
         }
         return props_TitleElement;
