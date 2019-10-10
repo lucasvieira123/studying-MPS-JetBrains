@@ -41,7 +41,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.AuthorRef:
         if (props_AuthorRef == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByName();
+          cpb.presentationByReference(0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec7aa62L, 0x184b73fa102c8a53L, "author", "", "");
           props_AuthorRef = cpb.create();
         }
         return props_AuthorRef;
@@ -68,7 +68,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.EtAlAuthor:
         if (props_EtAlAuthor == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByName();
+          cpb.rawPresentation("EtAlAuthor");
           props_EtAlAuthor = cpb.create();
         }
         return props_EtAlAuthor;

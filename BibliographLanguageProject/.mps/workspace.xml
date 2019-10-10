@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0deee78b-8f1a-4863-8e75-55961055ff92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/StructureAspectDescriptor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/classes_gen/BibliographyLanguage/structure/trace.info" afterDir="false" />
@@ -16,7 +14,6 @@
       <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen.caches/BibliographyLanguage/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen.caches/BibliographyLanguage/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen.caches/BibliographyLanguage/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen.caches/BibliographyLanguage/structure/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/LanguageConceptSwitch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/StructureAspectDescriptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/BibliographyLanguage/source_gen/BibliographyLanguage/structure/trace.info" afterDir="false" />
@@ -35,7 +32,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="f6ca53e7-e7cd-445f-9b3f-a0bf4bc3f654/r:b50235c8-a498-4aa6-921b-68a1d817baab(TempModulef6ca53e7-e7cd-445f-9b3f-a0bf4bc3f654/ConsoleModel_24760552002478)">
+            <model ref="ed80f0c3-f2b5-471c-8663-cff09f4603c1/r:76940c1e-508d-44a3-99ab-ddff3d9272ee(TempModuleed80f0c3-f2b5-471c-8663-cff09f4603c1/ConsoleModel_1856530728849)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -55,11 +52,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="19s92eYLT9y">
-                <node concept="3balQm" id="19s92eYLT9z" role="aymYE" />
-                <node concept="2Clz$F" id="19s92eYLT9$" role="aymYO" />
-                <node concept="2_V_lH" id="19s92eYLT9_" role="1PhJh3">
-                  <ref role="2_V_lI" node="19s92eYLT9$" resolve="CommandHolder" />
+              <node concept="aymSD" id="1xbsZCgb8D8">
+                <node concept="3balQm" id="1xbsZCgb8D9" role="aymYE" />
+                <node concept="2Clz$F" id="1xbsZCgb8Da" role="aymYO" />
+                <node concept="2_V_lH" id="1xbsZCgb8Db" role="1PhJh3">
+                  <ref role="2_V_lI" node="1xbsZCgb8Da" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -343,7 +340,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

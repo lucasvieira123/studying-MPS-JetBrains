@@ -82,7 +82,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForAuthor() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("BibliographyLanguage", "Author", 0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec6e34bL);
     b.class_(false, true, false);
-    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:4a12139c-8d78-4696-8ac1-fc227d811316(BibliographyLanguage.structure)/1322972126483243851");
     b.version(2);
     b.alias("author");
@@ -104,7 +103,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("BibliographyLanguage.structure.Author", 0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec6e34bL);
     b.origin("r:4a12139c-8d78-4696-8ac1-fc227d811316(BibliographyLanguage.structure)/1322972126483294818");
     b.version(2);
-    b.aggregate("author", 0x125c2423bec7aa63L).target(0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec7aa5eL).optional(false).ordered(true).multiple(false).origin("1322972126483294819").done();
+    b.associate("author", 0x184b73fa102c8a53L).target(0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec7aa5eL).optional(false).origin("1750620398013942355").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForBiblioElement() {
@@ -145,6 +144,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("BibliographyLanguage", "Person", 0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec7aa5eL);
     b.class_(false, false, false);
     b.super_("BibliographyLanguage.structure.Author", 0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec6e34bL);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:4a12139c-8d78-4696-8ac1-fc227d811316(BibliographyLanguage.structure)/1322972126483294814");
     b.version(2);
     b.property("firstName", 0x125c2423bec6e358L).type(PrimitiveTypeId.STRING).origin("1322972126483243864").done();

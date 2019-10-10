@@ -20,7 +20,7 @@
         <child id="1322972126483243875" name="authors" index="2GAGt0" />
       </concept>
       <concept id="1322972126483294818" name="BibliographyLanguage.structure.AuthorRef" flags="ng" index="2GAST1">
-        <child id="1322972126483294819" name="author" index="2GAST0" />
+        <reference id="1750620398013942355" name="author" index="8pZAD" />
       </concept>
       <concept id="1322972126483294814" name="BibliographyLanguage.structure.Person" flags="ng" index="2GASTX">
         <property id="1322972126483243864" name="firstName" index="2GAGtV" />
@@ -40,7 +40,7 @@
       <node concept="2GAGtJ" id="19s92eYLUCD" role="2GAGtL">
         <node concept="2GASTX" id="19s92eYLV6f" role="2GAGt0">
           <property role="2GAGtV" value="Manuele" />
-          <property role="TrG5h" value="Simi, MAnuele" />
+          <property role="TrG5h" value="Simi, Manuele" />
           <property role="2GAGtY" value="Simi" />
         </node>
         <node concept="2GASTX" id="19s92eYLVyW" role="2GAGt0">
@@ -58,9 +58,12 @@
       <node concept="2GAGtI" id="19s92eYLVzs" role="2GAGtL">
         <property role="2GAGtR" value="Undertanding Reference to other parts of the AST" />
       </node>
-      <node concept="2GAGtJ" id="19s92eYLVzN" role="2GAGtL">
-        <node concept="2GAST1" id="19s92eYLVzY" role="2GAGt0">
-          <node concept="2GASTX" id="19s92eYLV$0" role="2GAST0" />
+      <node concept="2GAGtJ" id="1xbsZCgbk6R" role="2GAGtL">
+        <node concept="2GAST1" id="1xbsZCgbk6Z" role="2GAGt0">
+          <ref role="8pZAD" node="19s92eYLVyW" resolve="Campagne, Fabien" />
+        </node>
+        <node concept="2GAST1" id="1xbsZCgbl0m" role="2GAGt0">
+          <ref role="8pZAD" node="19s92eYLV6f" resolve="Simi, Manuele" />
         </node>
       </node>
     </node>
