@@ -87,12 +87,6 @@
     <property role="34LRSv" value="author" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6QW0D896sCY" role="PzmwI" />
-    <node concept="1TJgyi" id="3TNpjS5yCAi" role="1TKVEl">
-      <property role="IQ2nx" value="4500051769728600466" />
-      <property role="TrG5h" value="a" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
   </node>
   <node concept="1TIwiD" id="19s92eYLIdc">
     <property role="EcuMT" value="1322972126483243852" />
@@ -104,11 +98,6 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="authors" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="19s92eYLIdb" resolve="Author" />
-    </node>
-    <node concept="1TJgyj" id="3TNpjS5yE99" role="1TKVEi">
-      <property role="IQ2ns" value="4500051769728606793" />
-      <property role="20kJfa" value="aads" />
       <ref role="20lvS9" node="19s92eYLIdb" resolve="Author" />
     </node>
   </node>
