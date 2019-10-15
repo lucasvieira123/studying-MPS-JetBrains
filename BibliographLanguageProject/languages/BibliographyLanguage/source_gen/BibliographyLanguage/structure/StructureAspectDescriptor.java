@@ -84,6 +84,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, true, false);
     b.origin("r:4a12139c-8d78-4696-8ac1-fc227d811316(BibliographyLanguage.structure)/1322972126483243851");
     b.version(2);
+    b.property("a", 0x3e73653e058a8992L).type(PrimitiveTypeId.STRING).origin("4500051769728600466").done();
     b.alias("author");
     return b.create();
   }
@@ -93,6 +94,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("BibliographyLanguage.structure.BiblioElement", 0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec6e34aL);
     b.origin("r:4a12139c-8d78-4696-8ac1-fc227d811316(BibliographyLanguage.structure)/1322972126483243852");
     b.version(2);
+    b.associate("aads", 0x3e73653e058aa249L).target(0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec6e34bL).optional(true).origin("4500051769728606793").done();
     b.aggregate("authors", 0x125c2423bec6e363L).target(0xbb75b69834bf4772L, 0xb67eb9c7faf0daabL, 0x125c2423bec6e34bL).optional(false).ordered(true).multiple(true).origin("1322972126483243875").done();
     b.alias("authors");
     return b.create();
