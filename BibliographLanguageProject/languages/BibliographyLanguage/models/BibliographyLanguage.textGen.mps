@@ -348,14 +348,14 @@
                 <node concept="37vLTw" id="6QW0D896HGy" role="2Oq$k0">
                   <ref role="3cqZAo" node="6QW0D896upa" resolve="record" />
                 </node>
-                <node concept="3Tsc0h" id="6QW0D896HX5" role="2OqNvi">
+                <node concept="3Tsc0h" id="5NAbP6BSmZO" role="2OqNvi">
                   <ref role="3TtcxE" to="4j0e:19s92eYLIdi" resolve="elements" />
                 </node>
               </node>
               <node concept="3clFbS" id="6QW0D896HFz" role="2LFqv$">
                 <node concept="lc7rE" id="6QW0D896HZD" role="3cqZAp">
-                  <node concept="l9hG8" id="6QW0D896HZS" role="lcghm">
-                    <node concept="2GrUjf" id="6QW0D896I0D" role="lb14g">
+                  <node concept="l9hG8" id="5NAbP6BSn6l" role="lcghm">
+                    <node concept="2GrUjf" id="5NAbP6BSn74" role="lb14g">
                       <ref role="2Gs0qQ" node="6QW0D896HFv" resolve="element" />
                     </node>
                   </node>
@@ -484,7 +484,7 @@
             <property role="XA4eZ" value="true" />
             <node concept="2OqwBi" id="6QW0D896Nlj" role="lbANJ">
               <node concept="37vLTw" id="6QW0D896NeN" role="2Oq$k0">
-                <ref role="3cqZAo" node="6QW0D896urH" resolve="authors" />
+                <ref role="3cqZAo" node="6QW0D896urH" resolve="authorElement" />
               </node>
               <node concept="3Tsc0h" id="6QW0D896NtR" role="2OqNvi">
                 <ref role="3TtcxE" to="4j0e:19s92eYLIdz" resolve="authors" />
@@ -497,8 +497,8 @@
         </node>
       </node>
       <node concept="37vLTG" id="6QW0D896urH" role="3clF46">
-        <property role="TrG5h" value="authors" />
-        <node concept="3Tqbb2" id="6QW0D896urI" role="1tU5fm">
+        <property role="TrG5h" value="authorElement" />
+        <node concept="3Tqbb2" id="5NAbP6BSD5p" role="1tU5fm">
           <ref role="ehGHo" to="4j0e:19s92eYLIdc" resolve="AuthorElement" />
         </node>
       </node>
@@ -539,6 +539,58 @@
                 <ref role="3Tt5mk" to="4j0e:1xbsZCgb8Dj" resolve="author" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="C4DZyXK5QY">
+    <ref role="WuzLi" to="4j0e:19s92eYLIdb" resolve="Author" />
+    <node concept="11bSqf" id="C4DZyXK5QZ" role="11c4hB">
+      <node concept="3clFbS" id="C4DZyXK5R0" role="2VODD2">
+        <node concept="lc7rE" id="C4DZyXK61b" role="3cqZAp">
+          <node concept="1bDJIP" id="C4DZyXK61x" role="lcghm">
+            <ref role="1rvKf6" node="6QW0D896utf" resolve="author" />
+            <node concept="117lpO" id="C4DZyXK61Q" role="1ryhcI" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="C4DZyXK62H">
+    <ref role="WuzLi" to="4j0e:19s92eYLIde" resolve="PublicationYearElement" />
+    <node concept="11bSqf" id="C4DZyXK62I" role="11c4hB">
+      <node concept="3clFbS" id="C4DZyXK62J" role="2VODD2">
+        <node concept="lc7rE" id="C4DZyXK7DS" role="3cqZAp">
+          <node concept="1bDJIP" id="C4DZyXK7Ee" role="lcghm">
+            <ref role="1rvKf6" node="6QW0D896uo1" resolve="publicationYear" />
+            <node concept="117lpO" id="C4DZyXK7Ez" role="1ryhcI" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="C4DZyXK7Fn">
+    <ref role="WuzLi" to="4j0e:19s92eYLIdd" resolve="TitleElement" />
+    <node concept="11bSqf" id="C4DZyXK7Fo" role="11c4hB">
+      <node concept="3clFbS" id="C4DZyXK7Fp" role="2VODD2">
+        <node concept="lc7rE" id="C4DZyXK7FG" role="3cqZAp">
+          <node concept="1bDJIP" id="C4DZyXK7G2" role="lcghm">
+            <ref role="1rvKf6" node="6QW0D896un8" resolve="title" />
+            <node concept="117lpO" id="C4DZyXK7Gn" role="1ryhcI" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="C4DZyXKeqY">
+    <ref role="WuzLi" to="4j0e:19s92eYLIdc" resolve="AuthorElement" />
+    <node concept="11bSqf" id="C4DZyXKeqZ" role="11c4hB">
+      <node concept="3clFbS" id="C4DZyXKer0" role="2VODD2">
+        <node concept="lc7rE" id="C4DZyXKerj" role="3cqZAp">
+          <node concept="1bDJIP" id="C4DZyXKerD" role="lcghm">
+            <ref role="1rvKf6" node="6QW0D896urE" resolve="authors" />
+            <node concept="117lpO" id="C4DZyXKerY" role="1ryhcI" />
           </node>
         </node>
       </node>

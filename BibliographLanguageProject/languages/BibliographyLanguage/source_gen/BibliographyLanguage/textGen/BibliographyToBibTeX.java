@@ -71,12 +71,12 @@ public abstract class BibliographyToBibTeX {
     tgs.append("");
     tgs.append(SPropertyOperations.getString(person, PROPS.firstName$4ZcE));
   }
-  public static void authors(SNode authors, final TextGenContext ctx) {
+  public static void authors(SNode authorElement, final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.indent();
     tgs.append("Authors= \"");
     {
-      Iterable<SNode> collection = SLinkOperations.getChildren(authors, LINKS.authors$NgQw);
+      Iterable<SNode> collection = SLinkOperations.getChildren(authorElement, LINKS.authors$NgQw);
       final SNode lastItem = Sequence.fromIterable(collection).last();
       for (SNode item : collection) {
         tgs.appendNode(item);
